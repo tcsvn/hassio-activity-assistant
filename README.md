@@ -8,12 +8,12 @@ Add-onsfor Home Assistant, allow you to extend the functionality
 
     Official release addon for activity-assistant.
 
-- **[Activity-assistant dev](/activity-assistant/README.md)**
+- **[Activity-assistant dev](/activity-assistant-dev/README.md)**
 
     Development container for activity-assistant.
 
 ## Models provided by this repository
-- **[SVM](/aa_model_svm/README.md)**
+- **[SVM](/aa-model-svm/README.md)**
 
     A model that can be installed from within activity assistant using the homeassistant supervisor api
 
