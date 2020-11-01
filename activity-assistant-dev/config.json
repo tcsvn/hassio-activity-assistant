@@ -1,8 +1,8 @@
 {
-  "name": "Activity-assistant",
+  "name": "Activity-assistant (Development)",
   "version": "dev",
   "slug": "act_assist_dev",
-  "description": "Record, evaluate and predict activities of daily living.",
+  "description": "This is a development container",
   "arch": ["amd64", "i386"],
   "url": "https://github.com/tcsvn/activity-assistant",
   "startup": "application",
