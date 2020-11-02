@@ -19,7 +19,7 @@
   "ports": {
     "8000/tcp": 8000
   },
-  "map":["share:rw", "config:ro"],
+  "map":["share:rw", "config:rw"],
   "ports_description":{
     "8000/tcp": "Required for API access of mobile devices"
   }
