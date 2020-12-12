@@ -3,7 +3,7 @@
   "version": "latest",
   "slug": "act_assist",
   "description": "Record, evaluate and predict activities of daily living.",
-  "arch": ["amd64", "i386"],
+  "arch": ["amd64", "i386", "armv7", "aarch64", "armhf"],
   "url": "https://github.com/tcsvn/activity-assistant",
   "startup": "application",
   "webui":"http://[HOST]:[PORT:8000]",
@@ -19,7 +19,7 @@
   "ports": {
     "8000/tcp": 8000
   },
-  "map":["share:rw", "config:rw"],
+  "map":["config:rw"],
   "ports_description":{
     "8000/tcp": "Required for API access of mobile devices"
   }
