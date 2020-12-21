@@ -13,8 +13,6 @@
   "options":{},
   "homeassistant_api":true,
   "hassio_api":true,
-  "ingress":true,
-  "ingress_port":8000,
   "panel_icon":"mdi:account-reactivate",
   "ports": {
     "8000/tcp": 8000
