@@ -2,7 +2,7 @@
   "name": "Activity-assistant",
   "version": "latest",
   "slug": "act_assist",
-  "description": "Record, evaluate and predict activities of daily living.",
+  "description": "Record, evaluate and predict Activities of Daily Living.",
   "arch": ["amd64", "i386", "armv7", "aarch64", "armhf"],
   "url": "https://github.com/tcsvn/activity-assistant",
   "startup": "application",
@@ -15,10 +15,10 @@
   "hassio_api":true,
   "panel_icon":"mdi:account-reactivate",
   "ports": {
-    "8000/tcp": 8000
+    "80/tcp": 8000
   },
   "map":["config:rw"],
   "ports_description":{
-    "8000/tcp": "Required for API access of mobile devices"
+    "8000/tcp": "Exposes a REST API used by the android app"
   }
 }
