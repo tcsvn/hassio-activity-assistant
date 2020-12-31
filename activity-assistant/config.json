@@ -3,7 +3,7 @@
   "version": "latest",
   "slug": "act_assist",
   "description": "Record, evaluate and predict Activities of Daily Living.",
-  "arch": ["amd64", "i386", "armv7", "aarch64", "armhf"],
+  "arch": ["amd64","armv7", "aarch64"],
   "url": "https://github.com/tcsvn/activity-assistant",
   "startup": "application",
   "webui":"http://[HOST]:[PORT:8000]",
@@ -15,7 +15,7 @@
   "hassio_api":true,
   "panel_icon":"mdi:account-reactivate",
   "ports": {
-    "80/tcp": 8000
+    "8000/tcp": 8000
   },
   "map":["config:rw"],
   "ports_description":{
