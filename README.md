@@ -1,12 +1,16 @@
 ## Activity-assistant Add-ons
 
-Add-onsfor Home Assistant, allow you to extend the functionality
+Add-ons for Home Assistant
 
 ## Add-ons provided by this repository
 
 - **[Activity-assistant](/activity-assistant/README.md)**
 
     Official release addon for activity-assistant.
+
+- **[Activity-assistant edge](/activity-assistant-edge/README.md)**
+
+    Newest unstable version for activity-assistant.
 
 - **[Activity-assistant dev](/activity-assistant-dev/README.md)**
 

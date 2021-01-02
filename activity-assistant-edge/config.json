@@ -1,7 +1,7 @@
 {
   "name": "Activity-assistant (edge)",
   "version": "latest",
-  "slug": "act_assist",
+  "slug": "act_assist_edge",
   "description": "Record, evaluate and predict Activities of Daily Living.",
   "arch": ["amd64","armv7", "aarch64"],
   "url": "https://github.com/tcsvn/activity-assistant",
