@@ -1,0 +1,26 @@
+name: "Activity-assistant (Edge)"
+version: latest
+slug: act_assist_edge
+description: "Record, evaluate and predict Activities of Daily Living."
+url: "https://github.com/tcsvn/activity-assistant"
+arch:
+  - amd64
+  - armv7
+  - aarch64
+startup: "application"
+init: false
+webui: "http://[HOST]:[PORT:8000]"
+boot: "auto"
+image: "tchr157/activity-assistant-{arch}"
+hassio_role: default
+homeassistant_api: true
+hassio_api: true
+ingress: true
+ingress_port: 8000
+panel_icon: "mdi:account-reactivate"
+ports:
+  8000/tcp: 8000
+map:
+  - config:ro
+ports_description:
+  8000/tcp: "Required for mobile activity tracker API access."
