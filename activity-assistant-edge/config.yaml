@@ -15,8 +15,8 @@ image: "tchr157/activity-assistant-{arch}"
 hassio_role: default
 homeassistant_api: true
 hassio_api: true
-ingress: true
-ingress_port: 8000
+#ingress: true
+#ingress_port: 8000
 panel_icon: "mdi:account-reactivate"
 ports:
   8000/tcp: 8000
