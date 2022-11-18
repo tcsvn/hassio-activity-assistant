@@ -1,4 +1,4 @@
-name: "Activity-assistant (Edge)"
+name: "Activity Assistant (Edge)"
 version: latest
 slug: act_assist_edge
 description: "Record, evaluate and predict Activities of Daily Living."
@@ -23,4 +23,4 @@ ports:
 map:
   - config:ro
 ports_description:
-  8000/tcp: "Required for mobile activity tracker API access."
+  8000/tcp: "Required for mobile activity trackers API access."

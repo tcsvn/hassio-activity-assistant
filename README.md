@@ -1,25 +1,24 @@
-## Activity-assistant Add-ons
+## Activity Assistant Add-ons
 
 Add-ons for Home Assistant
 
 ## Add-ons provided by this repository
 
-- **[Activity-assistant](/activity-assistant/README.md)**
+- **[Activity Assistant](/activity-assistant/README.md)**
 
-    Official release addon for activity-assistant.
+    Official release addon for Activity Assistant.
 
-- **[Activity-assistant edge](/activity-assistant-edge/README.md)**
+- **[Activity Assistant edge](/activity-assistant-edge/README.md)**
 
-    Newest unstable version for activity-assistant.
+    Newest unstable version for Activity Assistant.
 
-- **[Activity-assistant dev](/activity-assistant-dev/README.md)**
+- **[Activity Assistant dev](/activity-assistant-dev/README.md)**
 
-    Development container for activity-assistant.
+    Development container for Activity Assistant.
 
 ## Models provided by this repository
-- **[SVM](/aa-model-svm/README.md)**
 
-    A model that can be installed from within activity assistant using the homeassistant supervisor api
+- (to come)
 
 ## License
 MIT

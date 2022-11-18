@@ -1,5 +1,5 @@
-# Activity-assistant
-Activity-assistant is a platform that streamlines the process of collecting Activities of Daily Living. Selected devices from Home Asisstant and persons are tracked and dumped into .csv files. Using an android app or Home Assistant input_select/input_booleans, device readings are labeled with the inhabitants current activities. Furthermore activity-assistant (will) support the deployment of trained models running predictions in real-time. A homeassistant integration (will) offers users a way to automate things based on activity predictions.
+# Activity Assistant
+Activity assistant provides a platform for logging, predicting Activities of Daily Living in real-time for Home Assistant users. 
 
 # EDGE Channel
-This is the edge channel for activity-assistant. It is used by the maintainer to access test versions for the different arches and distributions. Do not use this channel if you want to have a stable experience.
+This is the edge channel for Activity Assistant that provides the latest build from the github master.  Its purpouse is for the maintainer to access the latest test versions for different arches and distributions. DO NOT use this channel if you want to have a stable experience. However, if your version is buggy chances are, the channel provides a fix.
