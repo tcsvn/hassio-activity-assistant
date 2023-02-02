@@ -1,5 +1,5 @@
 name: "Activity Assistant"
-version: "v0.0.2-alpha"
+version: "v0.0.3-alpha"
 slug: act_assist
 description: "Record, evaluate and predict Activities of Daily Living."
 url: "https://github.com/tcsvn/activity-assistant"
