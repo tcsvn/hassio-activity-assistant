@@ -3,9 +3,9 @@ I am working on a real documentation which will be linked later. So stay tuned.
 
 
 ## Guide
-- Configure activities and devices
-- Check if the IP addresse (not domain name) was set up correctly in the config!!!
-- Connect the android app to the platform by navigating to a person and scanning the qrcode
+- Follow the onboarding and configure stuff
+- Check if the IP address (not domain name) was set up correctly in the config!!!
+- Connect the android app to the platform by navigating to /person/x and scanning the qrcode
 - Start an experiment and document your activites with the app
 - Finish the experiment and export your data 
 - Use [pyadlml](https://github.com/tcsvn/pyadlml/) to load your data 
@@ -13,9 +13,9 @@ I am working on a real documentation which will be linked later. So stay tuned.
 
 ## FAQ
 - I can't connect my smartphone
-    - Is the IP and PORT set correctly? Check the addon configuration and the config in activity-assistant.
-- Can I connect to the server from the internet?
-    - Yes, in principle with Port forwarding enbaled this is possible. However this is not the recommended way. It is totally fine to specify a local ip address and synchronize the activities now and then when you are within your local net
+    - Is the IP and PORT set correctly? Check the addon configuration and the config in Activity Assistant.
+- Can I connect to the AA from the internet?
+    - Yes, in principle with Port forwarding enabled this is possible. However, this it NOT recommended. I did not develop the addon with security concerns in mind.
 
 ## Known Issues
 - Changing the port from 8000 to sth. other does not work!
@@ -26,6 +26,7 @@ I am working on a real documentation which will be linked later. So stay tuned.
     - Buy a better machine ;)
 - Plots do not show anything or crash after starting an experiment
     - Record at least a few activites and device events and then the correct content should be displayed
+    - Waiting or reloading is your friend. Sometimes the imported libraries do crash.
 - Logger can not connect to Activity Assistant or other issues
     - You have to use the IP address and not a domain name such as homeassistant.local since
       android phones do not use local dnss 

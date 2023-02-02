@@ -16,9 +16,9 @@ Add-ons for Home Assistant
 
     Development container for Activity Assistant.
 
-## Models provided by this repository
+## Model environments
 
-- (to come)
+- (tbd)
 
 ## License
 MIT
