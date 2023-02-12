@@ -1,5 +1,9 @@
 # Changelog
 
+- v.0.0.4-alpha
+    - Fix qr-code display
+    - Dashboard plotly now shows only last day
+    - Adjusted to Database v32 Home Assisstant API changes and pyadlml interface changes
 
 - v.0.0.3-alpha
     - Many more possibilities for bugs
