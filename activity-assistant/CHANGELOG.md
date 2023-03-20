@@ -1,6 +1,9 @@
 # Changelog
 
-- v.0.0.4-alpha
+- v.0.0.4.2-alpha
+    - Fix update service to not rely on webhooks due to timeouts
+
+- v.0.0.4.1-alpha
     - Fix qr-code display
     - Dashboard plotly now shows only last day
     - Adjusted to Database v32 Home Assisstant API changes and pyadlml interface changes
